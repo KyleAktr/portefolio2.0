@@ -1,0 +1,21 @@
+.logo-rotate {
+    width: 100px;
+    height: 100px;
+    animation: rotate 10s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logo-name {
+    width: 150px;
+    z-index: 10;
+  }
+  
+  

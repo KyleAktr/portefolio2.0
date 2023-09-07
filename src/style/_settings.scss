@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "regular";
+    src: url("./assets/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "monserrat";
+    src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+$regular: "regular", sans-serif;
+$monserrat: "monserrat", sans-serif;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $monserrat;
+    background-color: black;
+}
+
