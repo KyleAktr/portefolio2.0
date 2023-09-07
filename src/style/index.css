@@ -14,10 +14,16 @@
   background-color: black;
 }
 
+.logo {
+  display: flex;
+  z-index: 1;
+}
+
 .logo-rotate {
-  width: 100px; /* Ajustez la largeur selon vos besoins */
-  height: 100px; /* Ajustez la hauteur selon vos besoins */
-  animation: rotate 10s linear infinite; /* Ajoutez l'effet de rotation */
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: rotate 10s linear infinite;
 }
 
 @keyframes rotate {
@@ -29,8 +35,11 @@
   }
 }
 .logo-name {
-  width: 150px;
+  background: transparent;
+  width: 120px;
   z-index: 10;
+  margin-top: 30px;
+  margin-left: -10px;
 }
 
 .home {
@@ -51,6 +60,10 @@
   text-transform: uppercase;
   transform: scaleY(0.7);
   font-size: 2.3rem;
+  left: -30px;
+  flex-grow: 1;
+  text-align: center;
+  padding-right: 80px;
 }
 .home .home-content {
   display: flex;

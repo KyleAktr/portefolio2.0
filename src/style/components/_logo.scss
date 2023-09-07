@@ -1,4 +1,10 @@
+.logo {
+  display: flex;
+  z-index: 1;
+}
+
 .logo-rotate {
+  position: absolute;
     width: 100px;
     height: 100px;
     animation: rotate 10s linear infinite;
@@ -14,8 +20,11 @@
   }
 
   .logo-name {
-    width: 150px;
+    background: transparent;
+    width: 120px;
     z-index: 10;
+    margin-top: 30px;
+    margin-left: -10px;
   }
   
   
